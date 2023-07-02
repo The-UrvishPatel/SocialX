@@ -40,5 +40,5 @@ app.controller('ctrl', function($scope)
         post.name = "heart";
     }
 
-    $scope.profile_name_here = localStorage.getItem("current_user_name");
+    // $scope.profile_name_here = localStorage.getItem("current_user_name");
 });
